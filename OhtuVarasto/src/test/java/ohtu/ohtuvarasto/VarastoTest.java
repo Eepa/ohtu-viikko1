@@ -93,7 +93,7 @@ public class VarastoTest {
         varasto.lisaaVarastoon(5);
       
      
-        assertEquals(5, varasto.otaVarastosta(8), vertailuTarkkuus);
+        assertEquals(4, varasto.otaVarastosta(8), vertailuTarkkuus);
     }
     
     @Test
